@@ -1,6 +1,6 @@
-FROM ztscalingo/ztz:slim-buster
+FROM sedthon2440/Matrix:slim-buster
 
-RUN git clone https://github.com/ZTScalingo/ZTZ.git /root/zelz
+RUN git clone https://github.com/sedthon2440/Matrix.git /root/zelz
 
 WORKDIR /root/zelz
 
